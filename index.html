@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="pageIndex()">
+  <main>
+    <div class="content">
+      <div class="icon">
+        <img class="star" src="./images/icon-star.svg" alt="star">
+      </div>
+    
+      <div class="question">  
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+      </div>
+    
+      <div class="buttons">
+        
+        <button class="button active">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button">4</button>
+        <button class="button">5</button>
+        
+      </div>
+    
+      <div class="button-submit">
+        <form method="get" action="./thanks.html">
+          <input class="submit" type="submit" value="submit">
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="./scrpit.js"></script>
+</body>
+</html>

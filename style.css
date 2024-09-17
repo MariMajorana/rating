@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+.content{
+    margin: 0 auto;
+    margin-top: 25vh;
+    background-color: hsl(216, 12%, 8%);
+    width: 300px;
+    height: 320px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.icon{
+    background-color: hsl(213, 19%, 18%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.star{
+    padding-top: 30%;
+}
+.button{
+    background-color: hsl(213, 19%, 18%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    margin: 2px;
+    cursor: pointer;
+}
+.submit{
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+
+}
+.button.active{
+    background-color: gray;
+}
+.thanks{
+    text-align: center;
+}
+.selected{
+    background-color: hsl(213, 19%, 18%);
+    text-align: center;
+    border-radius: 20px;
+    width: 190px;
+    color: hsl(25, 97%, 53%);
+    margin: 0 auto;
+}
+.image{
+    text-align: center;
+}
+
+
